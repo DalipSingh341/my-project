@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Raleway:ital,wght@0,400;0,500;0,700;0,800;0,900;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Raleway:ital,wght@0,400;0,500;0,700;0,800;0,900;1,300&display=swap");
 
 /* .bg_nav{
   background-image: url("./assets/images/png/hero_bg.png");
@@ -7,6 +7,25 @@
   background-repeat: no-repeat;
 
 } */
+.bg_gains {
+  background-image: url("./assets/images/png/gains_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+}
+.bg_gains2 {
+  background-image: url("./assets/images/png/gainsfullbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+}
+.gains_content {
+  /* min-height: calc(100vh - 730px); */
+  min-height: calc(100vh - 10px);
+}
+
 @media (max-width: 1025px) {
   .nav_bar {
     color: #fff !important;
