@@ -9,15 +9,15 @@ export default {
         xs: "16px",
         md: "18px",
         lg: "22px",
-        "2lg": "22px",
+        "2lg": "24px",
         xl: "46px",
         "2xl": "52px",
         "3xl": "85px",
       },
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],
-        Machine: [" Neue Machine", "sans-serif"],
-        Jakarta: [" Plus+Jakarta+Sans", "sans-serif"],
+        Machine: ["Machine", "sans-serif"],
+        Jakarta: ["Plus+Jakarta+Sans", "sans-serif"],
       },
       colors: {
         "light-blue": "#1643C3",

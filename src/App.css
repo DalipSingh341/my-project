@@ -1,21 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Raleway:ital,wght@0,400;0,500;0,700;0,800;0,900;1,300&display=swap");
 
 /* .bg_nav{
-  background-image: url("./assets/images/png/hero_bg.png");
+  background-image: url("./assets/images/webp/hero_bg.webp");
   background-size: contain;
   background-position: start;
   background-repeat: no-repeat;
 
 } */
+@font-face {
+  font-family: "Machine";
+  /* src: url("./assets/fonts/machine/NeueMachina-Light.otf"); */
+  src: url("./assets/fonts/machine/NeueMachina-Regular.otf");
+}
 .bg_gains {
-  background-image: url("./assets/images/png/gains_bg.png");
+  background-image: url("./assets/images/webp/gains_bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   /* min-height: 100vh; */
 }
 .bg_gains2 {
-  background-image: url("./assets/images/png/gainsfullbg.png");
+  background-image: url("./assets/images/webp/bullwithcloudbg2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+}
+.bg-core {
+  background-image: url("./assets/images/webp/corebg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,3 +102,284 @@
 .hero-content {
   min-height: calc(100vh - 170px);
 } */
+
+/* slider  */
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  width: 100% !important;
+  width: 51px !important;
+  height: 7px !important;
+  background-color: white !important;
+}
+.slick-dots li {
+  /* margin-left: 20px !important; */
+}
+.slick-dots li button:before {
+  width: 100% !important;
+  min-width: 17px !important;
+  height: 7px !important;
+  content: url("./assets/images/webp/sliderdot.webp") !important;
+  opacity: 0.3 !important;
+  border-radius: 23px !important;
+  background-color: #d9d9d9 !important;
+  font-size: 0px !important;
+  line-height: 0px !important;
+}
+.slick-dots li {
+  max-width: 51px !important;
+  min-width: 17px !important;
+  height: 7px !important;
+}
+/* slider  */
+/* core */
+.corecard {
+  background: linear-gradient(
+    124deg,
+    rgba(19, 245, 255, 0.25) 7.19%,
+    rgba(0, 66, 255, 0) 93.2%
+  );
+  backdrop-filter: blur(11.379837036132812px);
+}
+/* core */
+/* tokenomics */
+.view_btn {
+  background: linear-gradient(93deg, #1643c3 10.24%, #369efe 208.68%);
+}
+/* tokenomics */
+/* total */
+.tokenbg {
+  background-image: url("./assets/images/webp/totalbg.webp");
+}
+/* total */
+/* future */
+.nft_box {
+  border: 2px solid rgba(98, 99, 101, 0.3);
+  background-color: #1d1d1d;
+  backdrop-filter: blur(49.5px);
+  transition: all 400ms ease-in-out;
+}
+.nft_box:hover {
+  border: 2px solid rgba(22, 67, 195, 0.3);
+  background: linear-gradient(170deg, #1643c3 0.65%, #000 139.04%),
+    linear-gradient(176deg, #3965e4 10.14%, #0c1f53 120.71%);
+}
+.nft_circle {
+  border: 1.272px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15.89805793762207px);
+}
+/* future */
+.future-card {
+  background: url(<path-to-image>),
+    lightgray -13.867px -23px / 107.619% 109.163% no-repeat;
+  box-shadow: 0px 5px 23px 0px rgba(22, 67, 195, 0.32);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 400ms ease-in-out;
+}
+.futurecard1 {
+  background-image: url("./assets/images/webp/futurecardbg2.webp");
+}
+.futurecard3 {
+  background-image: url("./assets/images/webp/futurecardbg3.webp");
+}
+.futurecard4 {
+  background-image: url("./assets/images/webp/futurecardbg4.webp");
+}
+.futurecard5 {
+  background-image: url("./assets/images/webp/futurecardbg5.webp");
+}
+.futurecard6 {
+  background-image: url("./assets/images/webp/futurecardbg6.webp");
+}
+.futurecard7 {
+  background-image: url("./assets/images/webp/futurecardbg7.webp");
+}
+.futurecard8 {
+  background-image: url("./assets/images/webp/futurecardbg8.webp");
+}
+.futurecard9 {
+  background-image: url("./assets/images/webp/futurecardbg9.webp");
+}
+.hovercard {
+  transition: all 400ms ease-in-out;
+}
+.futurecard1:hover .hovercard {
+  top: 0;
+}
+.futurecard3:hover .hovercard {
+  top: 0;
+}
+.futurecard4:hover .hovercard {
+  top: 0;
+}
+.futurecard5:hover .hovercard {
+  top: 0;
+}
+.futurecard6:hover .hovercard {
+  top: 0;
+}
+.futurecard7:hover .hovercard {
+  top: 0;
+}
+.futurecard8:hover .hovercard {
+  top: 0;
+}
+.futurecard9:hover .hovercard {
+  top: 0;
+}
+/* future */
+/* our-team */
+.teambg {
+  background-image: url("./assets/images/webp/teambg.webp");
+}
+.teamcard {
+  box-shadow: 0px 4px 44px 5px rgba(0, 0, 0, 0.08);
+}
+/* our-team */
+/* ecosystem */
+.bluebox {
+  width: 400px;
+  border: 1.213px solid #c3d3ff;
+  background: linear-gradient(93deg, #1643c3 10.24%, #369efe 208.68%);
+  box-shadow: 0px 7px 15px 0px rgba(22, 67, 195, 0.21);
+  transition: all 300ms ease-in-out;
+}
+.bluebox:hover {
+  scale: 1.01;
+}
+/* ecosystem */
+/* contact */
+.contactbg {
+  background-image: url("./assets//images/webp/contactbg.webp");
+}
+.inputborder {
+  border: 0 0 1px 0px rgba(255, 255, 255, 0.6) !important;
+  border-bottom: solid;
+}
+.submitbtn {
+  transition: all 500ms ease-in-out;
+  background-image: linear-gradient(93deg, #1643c3 10.28%, #369efe 96.25%),
+    linear-gradient(179deg, #1643c3 0.63%, #000 175.69%) !important;
+}
+.submitbtn:hover {
+  background-image: linear-gradient(93deg, #369efe 10.28%, #1643c3 96.25%),
+    linear-gradient(179deg, #369efe 0.63%, #000 175.69%) !important;
+}
+/* contact */
+/* roadmap */
+.roadmapbg {
+  background-image: url("./assets/images/webp/roadmapbg.webp");
+}
+.timelinebox {
+  background: rgba(22, 67, 195, 0.1);
+}
+.timebigline:after {
+  content: "";
+  width: 2px;
+  height: 93.5%;
+  background: #4273ff;
+  display: block;
+  position: absolute;
+  animation: timeline 3s steps(20);
+}
+@keyframes timeline {
+  0% {
+    height: 0%;
+  }
+  10% {
+    height: 10%;
+  }
+  20% {
+    height: 20%;
+  }
+  30% {
+    height: 30%;
+  }
+  40% {
+    height: 40%;
+  }
+  50% {
+    height: 50%;
+  }
+  60% {
+    height: 60%;
+  }
+  70% {
+    height: 70%;
+  }
+  80% {
+    height: 80%;
+  }
+  90% {
+    height: 90%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+.circleafter1:after{
+  content: url("./assets/images/webp/timelinecircle.webp");
+   display: block;
+  position: absolute;
+}
+.circleafter2:after{
+  content: url("./assets/images/webp/timelinecircle.webp");
+   display: block;
+  position: absolute;
+}
+.left:after{
+  top: 0px;
+left: 4%;
+}
+.right:after{
+  top: 0px;
+left: 4%;
+}
+
+@media (min-width:500px) {
+  .left:after{
+left: 5%;
+}
+.right:after{
+left: 5%;
+}
+}
+@media (min-width:768px) {
+  .timebigline:after {
+    height: 100%;
+  }
+  .left:after{
+left: 90%;
+}
+.right:after{
+left: -2%;
+}
+.circleafter1:after{
+  content: url("./assets/images/webp/timelineleftcircle.webp");
+}
+.circleafter2:after{
+  content: url("./assets/images/webp/timelinecirclemd.webp");
+}
+}
+@media (min-width:992px) {
+  .left:after{
+left: 93%;
+}
+.right:after{
+left: -2%;
+}
+
+}
+
+@media (min-width:1500px) {
+  .left:after{
+left: 94%;
+}
+.right:after{
+left: -1.5%;
+}
+
+}
+/* roadmap */

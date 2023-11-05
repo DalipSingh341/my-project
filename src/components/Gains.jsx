@@ -1,6 +1,6 @@
 import React from 'react'
-import bull from "../assets/images/png/bullone.png"
-import bear from "../assets/images/png/bearone.png"
+import bull from "../assets/images/webp/bullone.webp"
+import bear from "../assets/images/webp/bearone.webp"
 const Gains = () => {
   return (
     <div className="bg-black relative">

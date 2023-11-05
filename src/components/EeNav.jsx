@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import logo from "../assets/images/png/navlogo.png" 
-import herobg from "../assets/images/png/hero_bg.png" 
-import herorightbg from "../assets/images/png/herorightbg.png" 
+import logo from "../assets/images/webp/navlogo.webp" 
+import herobg from "../assets/images/webp/hero_bg.webp" 
+import headerdots from "../assets/images/png/headerdots.png"; 
+import herorightbg from "../assets/images/webp/herorightbg.webp" 
 import { Icon } from "react-icons-kit";
 import { menu } from "react-icons-kit/feather/menu";
 import { x } from "react-icons-kit/feather/x";
@@ -22,7 +23,16 @@ const EeNav = () => {
      }
   return (
     <div className="bg-[0B2261] lg:bg-white relative nav_content overflow-hidden bg_nav">
-      <img className="absolute top-0 left-0 max-w-[1155px] 2xl:max-w-[1370px] 2xl:w-full z-[1]" src={herobg} alt="herobg" />
+      <img
+        className="absolute top-[4%] right-[3%]  z-[1]"
+        src={headerdots}
+        alt="headerdots"
+      />
+      <img
+        className="absolute top-0 left-0 max-w-[1155px] 2xl:max-w-[1370px] 2xl:w-full z-[1]"
+        src={herobg}
+        alt="herobg"
+      />
       <img
         className="absolute bottom-[3%] right-0 "
         src={herorightbg}
@@ -101,27 +111,39 @@ const EeNav = () => {
                 id="cars"
                 className="border-none outline-none bg-transparent text-white font-Raleway font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-xs leading-normal"
               >
-                <option className="bg-transparent" value="More">
+                <option
+                  className="bg-black text-white font-Raleway font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-xs leading-normal"
+                  value="More"
+                >
                   More
                 </option>
-                <option className="bg-transparent" value="contact">
+                <option
+                  className="bg-black text-white font-Raleway font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-xs leading-normal"
+                  value="contact"
+                >
                   Contc
                 </option>
-                <option className="bg-transparent" value="faqs">
+                <option
+                  className="bg-black text-white font-Raleway font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-xs leading-normal"
+                  value="faqs"
+                >
                   Faqs
                 </option>
-                <option className="bg-transparent" value="feedback">
+                <option
+                  className="bg-black text-white font-Raleway font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] lg:text-xs leading-normal"
+                  value="feedback"
+                >
                   Feed
                 </option>
               </select>
             </li>
             <li onClick={hidenav}>
-              <Link className="py-4 px-[31px] sm:hidden text-white border border-white border-solid rounded-[8px] font-Raleway font-medium text-xs leading-normal inline-block">
+              <Link className="py-4 px-[31px] sm:hidden text-white border border-white border-solid rounded-[8px] font-Raleway font-medium text-xs leading-normal inline-block hover:text-white hover:bg-light-blue duration-500">
                 Enter App
               </Link>
             </li>
           </ul>
-          <Link className="hidden lg:block py-4 px-[31px] text-light-blue border border-light-blue border-solid rounded-[8px] font-Raleway font-medium text-xs leading-normal">
+          <Link className="hidden lg:block py-4 px-[31px] text-light-blue border border-light-blue border-solid rounded-[8px] font-Raleway font-medium text-xs leading-normal hover:text-white hover:bg-light-blue duration-500">
             Enter App
           </Link>
           <div className=" lg:hidden cross_btn  flex items-center gap-5">
@@ -136,7 +158,7 @@ const EeNav = () => {
                 <Icon icon={x} size={45} className="icons_color2 z-[100]" />
               )}
             </div>
-            <Link className="py-4 hidden sm:block lg:hidden px-[31px] text-white border border-white border-solid rounded-[8px] font-Raleway font-medium text-xs leading-normal">
+            <Link className="py-4 hidden sm:block lg:hidden px-[31px] text-white border border-white border-solid rounded-[8px] font-Raleway font-medium text-xs leading-normal hover:text-white hover:bg-light-blue duration-500">
               Enter App
             </Link>
           </div>

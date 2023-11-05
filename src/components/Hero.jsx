@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import heromen from "../assets/images/png/heroMens.png"
-import heromen2 from "../assets/images/png/hero_bg2.png";
+import heromen from "../assets/images/webp/heroMens.webp"
+import heromen2 from "../assets/images/webp/hero_bg2.webp";
 const Hero = () => {
   return (
     <div className="z-[2] relative">

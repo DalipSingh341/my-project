@@ -1,6 +1,6 @@
 import React from 'react'
-import  gainsfull from "../assets/images/png/gainsfullbg.png"
-import gainscloud from "../assets/images/png/gainscloud.png";
+// import  gainsfull from "../assets/images/webp/gainsfullbg.webp"
+// import gainscloud from "../assets/images/webp/gainscloud.webp";
 
 const Gainstwo = () => {
   return (
